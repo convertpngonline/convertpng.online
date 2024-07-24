@@ -1,0 +1,27 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<link type="text/css" rel="stylesheet" id="dark-mode-custom-link"/>
+<link type="text/css" rel="stylesheet" id="dark-mode-general-link"/>
+<style lang="en" type="text/css" id="dark-mode-custom-style"/>
+<style lang="en" type="text/css" id="dark-mode-native-style"/>
+<style lang="en" type="text/css" id="dark-mode-native-sheet"/>
+<url>
+<loc>https://www.convertpng.online/</loc>
+<lastmod>2024-07-24T08:11:23+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://www.convertpng.online/faq.html</loc>
+<lastmod>2024-07-24T08:11:23+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.convertpng.online/terms-of-service.html</loc>
+<lastmod>2024-07-24T08:11:23+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.convertpng.online/privacy-policy.html</loc>
+<lastmod>2024-07-24T08:11:23+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+</urlset>
