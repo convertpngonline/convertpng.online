@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Easily convert PNG images to JPG, BMP, WEBP, TIFF, ICO, and AVIF formats.">
   <meta name="keywords"
-    content="png to jpg, convert png online, free png converter, online image converter, png to avif">
+    content="png to jpg, convert png online, free png converter, online image converter, png to avif, jpeg, webp, tiff, jpg, bmp, ico, convert to">
   <meta name="author" content="Convert PNG Online">
   <meta property="og:title" content="Convert PNG Online - Transform any image to any format">
   <meta property="og:description" content="Easily convert PNG images to JPG, BMP, WEBP, TIFF, ICO, and AVIF formats.">
@@ -178,24 +178,37 @@
             Us</a>
         </div>
         <div class="flex space-x-4 mt-4 sm:mt-0">
-          <a href="https://www.facebook.com/convertpng.online" target="_blank"
+          <a href="https://www.facebook.com/ruskydev" target="_blank"
             class="text-gray-700 hover:text-pink-600 transition duration-300">
             <i class="fab fa-facebook-f fa-lg"></i>
           </a>
-          <a href="https://www.instagram.com/convertpng.online" target="_blank"
+          <a href="https://www.instagram.com/ruskydev" target="_blank"
             class="text-gray-700 hover:text-pink-600 transition duration-300">
             <i class="fab fa-instagram fa-lg"></i>
           </a>
-          <a href="https://github.com/convertpngonline/" target="_blank"
+          <a href="https://github.com/ruskydev/" target="_blank"
             class="text-gray-700 hover:text-pink-600 transition duration-300">
             <i class="fab fa-github fa-lg"></i>
+          </a>
+          <a href="https://x.com/ruskydev/" target="_blank"
+            class="text-gray-700 hover:text-pink-600 transition duration-300">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
+          <a href="https://discord.gg/MAnvhWJvsC" target="_blank"
+            class="text-gray-700 hover:text-pink-600 transition duration-300">
+            <i class="fab fa-discord fa-lg"></i>
           </a>
         </div>
       </div>
     </div>
   </footer>
   <script src="./scripts/client.js"></script>
-  <script src="./scripts/NavBarScript.js"></script>
+  <script>
+    document.getElementById('navToggle').addEventListener('click', function () {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('hidden');
+    });
+  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-20VQ747Q39"></script>
   <script>
     window.dataLayer = window.dataLayer || [];

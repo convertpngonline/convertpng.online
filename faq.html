@@ -23,6 +23,7 @@
   <meta property="og:type" content="website" />
   <meta name="robots" content="index" />
 </head>
+
 <body class="text-gray-900">
   <nav class="mt-4 mb-4">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -108,28 +109,41 @@
           <a href="./faq.html" class="hover:text-pink-400 transition duration-300 text-sm">FAQ</a>
           <a href="./privacy-policy.html" class="hover:text-pink-400 transition duration-300 text-sm">Privacy
             Policy</a>
-          <a href="mailto:iamayaanalee@gmail.com" target="_blank" rel="noopener "
+          <a href="mailto:iamayaanalee@gmail.com" target="_blank" rel="noopener"
             class="hover:text-pink-400 transition duration-300 text-sm">Contact
             Us</a>
         </div>
         <div class="flex space-x-4 mt-4 sm:mt-0">
-          <a href="https://www.facebook.com/convertpng.online" target="_blank"
+          <a href="https://www.facebook.com/ruskydev" target="_blank"
             class="text-gray-700 hover:text-pink-600 transition duration-300">
             <i class="fab fa-facebook-f fa-lg"></i>
           </a>
-          <a href="https://www.instagram.com/convertpng.online" target="_blank"
+          <a href="https://www.instagram.com/ruskydev" target="_blank"
             class="text-gray-700 hover:text-pink-600 transition duration-300">
             <i class="fab fa-instagram fa-lg"></i>
           </a>
-          <a href="https://github.com/convertpngonline/" target="_blank"
+          <a href="https://github.com/ruskydev/" target="_blank"
             class="text-gray-700 hover:text-pink-600 transition duration-300">
             <i class="fab fa-github fa-lg"></i>
+          </a>
+          <a href="https://x.com/ruskydev/" target="_blank"
+            class="text-gray-700 hover:text-pink-600 transition duration-300">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
+          <a href="https://discord.gg/MAnvhWJvsC" target="_blank"
+            class="text-gray-700 hover:text-pink-600 transition duration-300">
+            <i class="fab fa-discord fa-lg"></i>
           </a>
         </div>
       </div>
     </div>
   </footer>
-  <script src="./scripts/NavBarScript.js"></script>
+  <script>
+    document.getElementById('navToggle').addEventListener('click', function () {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('hidden');
+    });
+  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-20VQ747Q39"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
