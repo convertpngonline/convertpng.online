@@ -4,15 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Easily convert PNG images to JPG, BMP, WEBP, TIFF, ICO, and AVIF formats.">
-  <meta name="keywords" content="png to jpg, convert png online, free png converter, online image converter, png to avif, jpeg, webp, tiff, jpg, bmp, ico, convert to, avif to jpg">
+  <meta name="description" content="Easily convert PNG images to JPG, BMP, WEBP, TIFF, ICO, SVG and AVIF formats.">
+  <meta name="keywords" content="svg, png to jpg, convert png online, free png converter, online image converter, png to avif, jpeg, webp, tiff, jpg, bmp, ico, convert to, avif to jpg">
   <meta name="author" content="Convert PNG Online">
   <meta property="og:title" content="Convert PNG Online - Transform any image to any format">
-  <meta property="og:description" content="Easily convert PNG images to JPG, BMP, WEBP, TIFF, ICO, and AVIF formats.">
+  <meta property="og:description" content="Easily convert PNG images to JPG, BMP, WEBP, TIFF, ICO, SVG and AVIF formats.">
   <meta property="og:url" content="https://convertpng.online">
   <meta name="theme-color" content="#DB2777">
   <meta name="twitter:title" content="Convert PNG Online - Transform any image to any format">
-  <meta name="twitter:description" content="Easily convert PNG images to JPG, BMP, WEBP, TIFF, ICO, and AVIF formats.">
+  <meta name="twitter:description" content="Easily convert PNG images to JPG, BMP, WEBP, TIFF, ICO, SVG and AVIF formats.">
   <title>Convert PNG Online - Fast Image Conversion Tool</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
   <meta property="og:image" content="https://convertpng.online/assets/logo.png">
   <meta property="og:type" content="website" />
   <meta name="robots" content="index" />
-  <script>(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://zovidree.com/tag.min.js',7858311,document.body||document.documentElement)</script>
+  <script>(function (s, u, z, p) { s.src = u, s.setAttribute('data-zone', z), p.appendChild(s); })(document.createElement('script'), 'https://zovidree.com/tag.min.js', 7858311, document.body || document.documentElement)</script>
   <script src="https://boltepse.com/act/files/tag.min.js?z=7858322" data-cfasync="false" async></script>
 </head>
 
@@ -85,11 +85,13 @@
         <option value="tiff">TIFF</option>
         <option value="ico">ICO</option>
         <option value="avif">AVIF</option>
+        <option value="svg">SVG</option>
       </select>
-      <input id="fileInput" type="file" accept=".jpeg,.jpg,.ico,.webp,.png,.tiff,.bmp,.avif" class="hidden" multiple>
+      <input id="fileInput" type="file" accept=".jpeg,.jpg,.ico,.webp,.png,.tiff,.bmp,.avif,.svg" class="hidden"
+        multiple>
       <button id="chooseFileButton"
         class="bg-pink-600 text-white py-2 px-4 rounded-full hover:bg-pink-700 transition duration-300 flex items-center space-x-2">
-        <i class="fas fa-file-upload"></i> 
+        <i class="fas fa-file-upload"></i>
         <span>Choose File</span>
       </button>
       <button id="convertButton"
@@ -211,6 +213,7 @@
       menu.classList.toggle('hidden');
     });
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-20VQ747Q39"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
